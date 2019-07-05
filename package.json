@@ -13,7 +13,9 @@
     "lint": "eslint src",
     "build": "babel src -d lib && babel test/src -d test/lib",
     "run-tests": "cd example && mocha ../test/lib",
-    "test": "npm run lint && npm run build && npm run run-tests"
+    "test": "npm run lint && npm run build && npm run run-tests",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": ">= 4.4.5"
@@ -30,7 +32,8 @@
     "package-json": "2.4.0",
     "request": "2.74.0",
     "sync-exec": "0.6.2",
-    "yargs": "6.3.0"
+    "yargs": "6.3.0",
+    "snyk": "^1.192.3"
   },
   "devDependencies": {
     "babel-cli": "6.14.0",
@@ -47,5 +50,6 @@
     "presets": [
       "es2015"
     ]
-  }
+  },
+  "snyk": true
 }
