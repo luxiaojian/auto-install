@@ -19,16 +19,16 @@
     "node": ">= 4.4.5"
   },
   "dependencies": {
-    "chokidar": "1.6.1",
+    "chokidar": "3.0.0",
     "colors": "1.1.2",
     "detective": "4.3.2",
     "detective-es6": "1.1.5",
-    "glob": "7.1.0",
+    "glob": "9.0.0",
     "is-builtin-module": "1.0.0",
-    "log-symbols": "1.0.2",
-    "ora": "0.3.0",
+    "log-symbols": "2.0.0",
+    "ora": "1.4.0",
     "package-json": "2.4.0",
-    "request": "2.74.0",
+    "request": "2.80.0",
     "sync-exec": "0.6.2",
     "yargs": "6.3.0"
   },
