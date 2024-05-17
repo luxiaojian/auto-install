@@ -19,7 +19,7 @@
     "node": ">= 4.4.5"
   },
   "dependencies": {
-    "chokidar": "1.6.1",
+    "chokidar": "3.0.0",
     "colors": "1.1.2",
     "detective": "4.3.2",
     "detective-es6": "1.1.5",
